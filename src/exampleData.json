@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "userId": 2,
+      "name": "Naruto",
+      "email": "naruto@gmail.com",
+      "username": "naruto",
+      "password": "123"
+    },
+    {
+      "userId": 3,
+      "name": "Sasuke",
+      "email": "sasuke@gmail.com",
+      "username": "sasuke",
+      "password": "123"
+    }
+  ],
+  "expenses": [
+    {
+      "userId": 2,
+      "expenseId": "1111",
+      "expenseItem": [
+        {
+          "expenseName": "Food",
+          "expenseAmount": 5000,
+          "createdAt": "2022-12-01",
+          "updatedAt": "2022-12-01"
+        },
+        {
+          "expenseName": "Travel",
+          "expenseAmount": 15000,
+          "createdAt": "2022-12-05",
+          "updatedAt": "2022-12-05"
+        },
+        {
+          "expenseName": "Black Friday",
+          "expenseAmount": 10000,
+          "createdAt": "2022-12-01",
+          "updatedAt": "2022-12-15"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "expenseId": "2222",
+      "expenseItem": [
+        {
+          "expenseName": "Food",
+          "expenseAmount": 5000,
+          "createdAt": "2022-12-01",
+          "updatedAt": "2022-12-01"
+        },
+        {
+          "expenseName": "Travel",
+          "expenseAmount": 15000,
+          "createdAt": "2022-12-05",
+          "updatedAt": "2022-12-05"
+        },
+        {
+          "expenseName": "Black Friday",
+          "expenseAmount": 10000,
+          "createdAt": "2022-12-01",
+          "updatedAt": "2022-12-15"
+        }
+      ]
+    }
+  ],
+  "incomes": [
+    {
+      "incomeId": 2,
+      "incomeItem": [
+        {
+          "incomeName": "Lương tháng 11",
+          "incomeAmount": 100000,
+          "createdAt": "2022-12-01",
+          "updatedAt": "2022-12-01"
+        },
+        {
+          "incomeName": "Kinh doanh quần áo tháng 11",
+          "incomeAmount": 15000,
+          "createdAt": "2022-12-01",
+          "updatedAt": "2022-12-01"
+        }
+      ],
+      "userId": 2
+    }
+  ]
+}
